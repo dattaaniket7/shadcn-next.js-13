@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import { Button } from "@/components/ui/button";
+import { ProfileForm } from "@/components/UserForm";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Button variant={"secondary"}>Learn more</Button>
         <Button>Enroll now</Button>
       </div>
+      <ProfileForm />
     </main>
   );
 }
