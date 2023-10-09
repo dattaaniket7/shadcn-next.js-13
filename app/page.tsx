@@ -14,7 +14,7 @@ export default function Home() {
         </p>
       </section>
       <div className="flex gap-6 items-center justify-center">
-        <Button>Learn more</Button>
+        <Button variant={"secondary"}>Learn more</Button>
         <Button>Enroll now</Button>
       </div>
     </main>

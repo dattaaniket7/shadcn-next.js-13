@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { ModeToggle } from "./ui/toggle-mode";
 
 export default function Nav() {
   return (
@@ -23,7 +24,9 @@ export default function Nav() {
               />
             </a>
           </li>
-          <li>Toggle Button</li>
+          <li>
+            <ModeToggle />
+          </li>
         </ul>
       </nav>
     </header>
